@@ -11,8 +11,8 @@
     --danger-color: #ef4444;
     --info-color: #3b82f6;
     --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --tile-base-size: 80px;
-    --tile-gap: 8px;
+    --tile-base-size: 70px;
+    --tile-gap: 10px;
 }
 
 body {
@@ -291,17 +291,19 @@ body {
 }
 
 .legend-tile {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 0.5rem;
-    font-size: 0.625rem;
+    font-size: 0.65rem;
     text-align: center;
     line-height: 1.1;
     flex-shrink: 0;
+    padding: 2px;
+    word-break: break-all;
 }
 
 .legend-name {
